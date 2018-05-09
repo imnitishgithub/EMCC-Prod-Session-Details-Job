@@ -1,7 +1,7 @@
 <project name="EMCC-Prod Session Details" default="info">
 <target name="info">
-<exec executable="D:\DevOps\Git\Git\bin\bash">
-<arg value="D:\DevOps\Scripts\test_script_html.sh"/>
+<exec executable="/bin/bash">
+<arg value="test_script_html.sh"/>
 <arg value="/tmp"/>
 </exec>
 </target>
